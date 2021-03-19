@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+<link rel="stylesheet" href="test.css">
+
+<script>
+
+function test_alert() {
+	alert("test");	
+} 
+
+function test_paragraph() {
+	document.getElementById("change_paragraph").innerHTML = "Paragraph changed!";
+	//document.getElementById("change_paragraph2").style.display = "none";
+
+	if (document.getElementById("change_paragraph2").style.display === "none") {
+		document.getElementById("change_paragraph2").style.display = "block";
+	} else {
+	    document.getElementById("change_paragraph2").style.display = "none";
+	}
+}
+</script>
+
+</head>
+<body>
+
+<h1 id="header">My First Heading</h1>
+<h1 class="header">My Second Heading</h1>
+
+<input type="button" value="test" onclick="test_alert()">
+<button onclick="test_paragraph()">Change paragraph</button>
+
+<div class="special">
+	<p class="special" id="change_paragraph">I'm baby biodiesel <b>gastropub</b> cold-pressed selvage hexagon pop-up truffaut. Pour-over readymade brooklyn, snackwave polaroid put a bird on it celiac man braid food truck ramps. Kinfolk taiyaki waistcoat blue bottle meditation craft beer wayfarers actually pour-over brooklyn keffiyeh marfa subway tile irony kitsch. Mixtape vinyl roof party, blog wolf drinking vinegar mumblecore keytar hexagon craft beer. Flexitarian you probably haven't heard of them kitsch +1, microdosing keffiyeh street art try-hard messenger bag direct trade vaporware post-ironic. Actually vape raclette letterpress williamsburg beard prism tattooed try-hard, swag slow-carb.
+	</p>
+</div>
+
+Listicle bicycle rights ugh <strong>wolf</strong>, normcore fixie kale chips irony. Normcore umami skateboard, gochujang vegan taiyaki distillery. Messenger bag tumeric pour-over air plant franzen marfa. Enamel pin poutine tofu mumblecore, before they sold out master cleanse iceland pinterest schlitz sustainable beard knausgaard chicharrones blue bottle. Roof party echo park raclette, meggings unicorn typewriter fixie. Snackwave pok pok slow-carb, activated charcoal shaman live-edge XOXO organic pour-over irony mumblecore salvia.
+<br /><br />
+Direct trade af pok pok <i>tumblr</i> vexillologist kombucha trust fund sustainable hot chicken slow-carb seitan. Mumblecore sriracha umami taiyaki mustache dreamcatcher, hammock banjo activated charcoal. Authentic brunch lyft sartorial pickled fanny pack bespoke activated charcoal vinyl williamsburg four loko sustainable. Kombucha kitsch irony cardigan ramps. Bitters meggings gochujang scenester, disrupt humblebrag viral fashion axe williamsburg poutine selvage. Etsy hot chicken vape, blue bottle whatever helvetica knausgaard humblebrag tilde tote bag. Echo park crucifix air plant knausgaard wayfarers retro stumptown.
+<br /><br />
+Four loko street art etsy tumeric tofu truffaut. Semiotics whatever disrupt distillery. Before they sold out godard direct trade, austin swag kogi tilde. Freegan kogi master cleanse, messenger bag kombucha slow-carb coloring book enamel pin narwhal banjo raw denim hell of meggings marfa. Pug cronut master cleanse tilde, intelligentsia skateboard pour-over semiotics gastropub. Raw denim direct trade deep v, try-hard small batch bicycle rights neutra chicharrones coloring book tousled franzen pitchfork cray. Austin palo santo quinoa crucifix gochujang, kinfolk pabst tumblr umami poutine migas lumbersexual heirloom gentrify trust fund.
+
+<p id="change_paragraph2">
+Yuccie tacos sartorial food truck schlitz, palo santo vinyl. Flannel pitchfork messenger bag, pok pok succulents kombucha blue bottle. Ennui lumbersexual asymmetrical hell of, freegan vexillologist stumptown cray food truck tumeric slow-carb. Etsy hashtag snackwave ennui vegan narwhal actually VHS aesthetic affogato tilde palo santo edison bulb drinking vinegar. Chambray twee poke taiyaki gastropub vape.
+
+</p>
+
+<!-- remove when done -->
+<a href="https://google.com" target="_blank" style="color:yellow; background-color:black">Google</a>
+<br />
+
+<a href="https://linkedin.com/in/elliotkoss" target="_blank">
+	<img src="me_400x400.jpeg" />
+</a>
+
+<br /><br />
+<a href="https://linkedin.com/in/elliotkoss" target="_blank">LinkedIn</a>
+
+<br /><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_OBlgSz8sSM?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</body>
+</html>
